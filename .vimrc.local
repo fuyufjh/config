@@ -8,3 +8,6 @@ let g:indent_guides_enable_on_vim_startup = 0
 "Disable the question that allowing YCM to load configuration
 let g:ycm_extra_conf_globlist = ['~/workspace/*']
 
+"set switch-case indent
+set cinoptions=:0
+
