@@ -1,2 +1,2 @@
 "Bundle groups. Refer to .vimrc.bundles
-let g:spf13_bundle_groups=['general', 'programming', 'html', 'youcompleteme']
+let g:spf13_bundle_groups=['general', 'programming', 'youcompleteme', 'python', 'misc']
