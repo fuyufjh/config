@@ -5,22 +5,6 @@ set nospell
 "Disable the indent guide vertical lines
 let g:indent_guides_enable_on_vim_startup = 0
 
-"Disable the question that allowing YCM to load configuration
-let g:ycm_extra_conf_globlist = ['~/workspace/*']
-
-"Use a global YCM config file (c++11)
-let g:ycm_global_ycm_extra_conf = '~/dotfiles/.ycm_extra_conf.py'
-
 "set switch-case indent
 set cinoptions=:0g0
 
-"set my favourite font
-if !exists("g:spf13_no_big_font")
-    if LINUX() && has("gui_running")
-        set guifont=Andale\ Mono\ Regular\ 12,Menlo\ Regular\ 11,Consolas\ Regular\ 12,Courier\ New\ Regular\ 14
-    elseif OSX() && has("gui_running")
-        set guifont=Monaco:h12
-    elseif WINDOWS() && has("gui_running")
-        set guifont=Consolas:h10
-    endif
-endif
